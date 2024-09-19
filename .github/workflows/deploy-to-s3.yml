@@ -20,7 +20,7 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: eu-central-1  # Updated to use your region directly
+        aws-region: eu-central-1
 
     # Step 3: Sync the files in the repo to the S3 bucket
     - name: Sync files to S3
