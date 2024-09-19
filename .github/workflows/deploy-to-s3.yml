@@ -26,4 +26,4 @@ jobs:
     # Step 3: Sync the files in the repo to the S3 bucket
     - name: Sync files to S3
       run: |
-        aws s3 sync . s3://${{ secrets.resume.my-devops-lab.online }} --exclude ".git/*" --delete
+        aws s3 sync . s3://${{ secrets.S3_BUCKET_NAME }} --exclude ".git/*" --delete
