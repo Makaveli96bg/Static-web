@@ -1,1 +1,1 @@
-# Statici-web
+# Static-web
